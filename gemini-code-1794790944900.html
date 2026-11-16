@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7rio. の自己紹介</title>
+  <style>
+    /* 全体の基本設定 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #ffffff;
+      /* ▼ 文字の色を変える場所（全体の文字色） */
+      color: #222222;
+      font-family: sans-serif;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+
+    /* レイアウトの箱（広い画面でも狭い画面でもはみ出さない設定） */
+    .container {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* ヘッダーとページ内メニュー */
+    header {
+      padding: 40px 0 24px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 32px;
+    }
+
+    .site-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+    }
+
+    nav a {
+      /* ▼ 文字の色を変える場所（メニューのリンク色） */
+      color: #222222;
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    nav a:hover {
+      border-bottom-color: #222222;
+    }
+
+    /* 各セクション */
+    section {
+      margin-bottom: 48px;
+      scroll-margin-top: 24px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      padding-left: 10px;
+      border-left: 4px solid #222222;
+    }
+
+    p {
+      margin-bottom: 16px;
+      overflow-wrap: break-word;
+    }
+
+    /* リンクエリア */
+    .link-box {
+      margin-top: 16px;
+      padding: 16px;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+    }
+
+    .link-box a {
+      /* ▼ 文字の色を変える場所（公式サイトリンクの色） */
+      color: #0056b3;
+      word-break: break-all;
+    }
+
+    /* フッター */
+    footer {
+      border-top: 1px solid #e0e0e0;
+      padding: 24px 0 40px;
+      font-size: 0.9rem;
+      /* ▼ 文字の色を変える場所（フッターの文字色） */
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="site-title">7rio.</h1>
+      <nav aria-label="ページ内メニュー">
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#learning">今学んでいること</a></li>
+          <li><a href="#future">これからやってみたいこと</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>自己紹介</h2>
+        <!-- ▼ 紹介文を変える場所（ここから） -->
+        <p>
+          はじめまして、大学1年生の7rio.です。<br>
+          朝鮮族の留学生として日本で大学生活を送っています。<br>
+          趣味はFPSゲームの『VALORANT（ヴァロラント）』で、ランクはダイヤモンドです。ゲームが好きな人がいたらぜひ声をかけてください！
+        </p>
+        <!-- ▲ 紹介文を変える場所（ここまで） -->
+
+        <div class="link-box">
+          <p>関連リンク：</p>
+          <!-- ▼ 公式サイトの名前とURLを入れる場所 -->
+          <a href="【ここにURLを入れる】" target="_blank" rel="noopener noreferrer">【ここに公式サイトの名前を入れる】</a>
+        </div>
+      </section>
+
+      <section id="learning">
+        <h2>今学んでいること</h2>
+        <p>
+          現在は、cpro（プログラミング）について学んでいます。
+        </p>
+      </section>
+
+      <section id="future">
+        <h2>これからやってみたいこと</h2>
+        <p>
+          これからやってみたいことは、今のところ特にありません。大学生活を送りながら少しずつ見つけていきたいです。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>7rio. - 自己紹介ページ</p>
+    </footer>
+  </div>
+</body>
+</html>
